@@ -1,0 +1,50 @@
+.container{
+    max-width: 400px;
+    margin: auto;
+    background-color: rgb(141, 35, 35);
+    text-align: center;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+#number{
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+
+}
+#button{
+    width: 100px;
+    margin: auto;
+    padding: 3px;
+    margin-bottom:20px ;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.result{
+    color: white;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+
+.operacion{
+    
+    display: inline-block;
+    margin: auto;
+}
+
+.operacion > #button{
+    width: 50px;
+    font-size: 1.5rem;
+}
